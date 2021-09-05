@@ -1,0 +1,45 @@
+$purple: #4B32CC;
+$black: #000000;
+$gray: #c4c4c4;
+$white: #ffffff;
+
+$monts-regular: 400;
+$monts-medium: 500;
+$monts-semi-bold: 600;
+$monts-bold: 700;
+
+$rale-light: 300;
+$rale-regular: 400;
+$rale-medium: 500;
+$rale-semi-bold: 600;
+
+$montserrat: 'Montserrat', sans-serif;
+$raleway: 'Raleway', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $raleway;
+}
+
+.header {
+  .navbar-dans {
+    padding: 16px 0px;
+    .navbar-brand {
+      img {
+        width: 120px;
+      }
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $black;
+      font-family: $montserrat;
+      font-weight: $monts-semi-bold;
+    }
+    .active {
+      color: $purple !important;
+    }
+  }
+}
