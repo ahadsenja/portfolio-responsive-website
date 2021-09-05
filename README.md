@@ -3,4 +3,4 @@ This website is build with love using HTML + SASS.
 
 You can clone this project if you need to learn HTML + SASS.
 
-**Note: Not yet responsive for now
+`**V0.1 Not yet responsive for now`
