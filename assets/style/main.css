@@ -4,6 +4,11 @@
   font-family: "Raleway", sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
 .header .navbar-dans {
   padding: 16px 0px;
 }
@@ -16,9 +21,56 @@
   color: #000000;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
+  padding-left: 30px;
 }
 
 .header .navbar-nav .active {
   color: #4B32CC !important;
+}
+
+.main-content .hero {
+  padding-top: 100px;
+}
+
+.main-content .hero .title {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  line-height: 3.2rem;
+}
+
+.main-content .hero .title .name {
+  color: #4B32CC;
+}
+
+.main-content .hero .btn-contact {
+  background-color: #4B32CC;
+  padding: 14px 32px;
+  border-radius: 6px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+
+.main-content .hero .hero-image {
+  padding-left: 80px;
+}
+
+.main-content .hero .hero-image img {
+  width: 400px;
+}
+
+.main-content .hero .social .social-link i {
+  padding-top: 40px;
+  color: #000000;
+}
+
+.main-content .hero .social .social-link i:hover {
+  color: #4B32CC;
+}
+
+.main-content .about {
+  padding-top: 180px;
 }
 /*# sourceMappingURL=main.css.map */

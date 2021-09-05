@@ -1,6 +1,6 @@
 $purple: #4B32CC;
 $black: #000000;
-$gray: #c4c4c4;
+$grey: #c4c4c4;
 $white: #ffffff;
 
 $monts-regular: 400;
@@ -22,6 +22,12 @@ $raleway: 'Raleway', sans-serif;
   font-family: $raleway;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: $montserrat;
+  font-weight: $monts-semi-bold;
+}
+
+// HEADER
 .header {
   .navbar-dans {
     padding: 16px 0px;
@@ -37,9 +43,56 @@ $raleway: 'Raleway', sans-serif;
       color: $black;
       font-family: $montserrat;
       font-weight: $monts-semi-bold;
+      padding-left: 30px;
     }
     .active {
       color: $purple !important;
     }
+  }
+}
+
+// CONTENT
+.main-content {
+  .hero {
+    padding-top: 100px;
+    .title {
+      font-family: $montserrat;
+      padding-top: 60px;
+      padding-bottom: 40px;
+      line-height: 3.2rem;
+      .name {
+        color: $purple;
+      }
+    }
+    .btn-contact {
+      background-color: $purple;
+      padding: 14px 32px;
+      border-radius: 6px;
+      color: $white;
+      text-decoration: none;
+      font-weight: $monts-semi-bold;
+      letter-spacing: 0.1rem;
+    }
+    .hero-image {
+      padding-left: 80px;
+      img {
+        width: 400px;
+      }
+    }
+    .social {
+      .social-link {
+        i {
+          padding-top: 40px;
+          color: $black;
+        }
+        i:hover {
+          color: $purple;
+        }
+      }
+    }
+  }
+
+  .about {
+    padding-top: 180px;
   }
 }
