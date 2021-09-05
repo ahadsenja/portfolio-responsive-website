@@ -175,3 +175,22 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 }
+
+.footer {
+  margin-top: 100px;
+  background-color: $black;
+  h2 {
+    padding-top: 60px;
+    color: $white;
+  }
+  .social-link {
+    color: $purple;
+    padding-left: 20px;
+  }
+
+  .footer-credit {
+    color: $grey;
+    font-weight: $rale-light;
+    font-size: 14px;
+  }
+}
