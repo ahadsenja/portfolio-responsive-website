@@ -73,4 +73,98 @@ h1, h2, h3, h4, h5, h6 {
 .main-content .about {
   padding-top: 180px;
 }
+
+.main-content .about .about-content {
+  padding-top: 60px;
+}
+
+.main-content .about .about-content img {
+  width: 340px;
+}
+
+.main-content .about .about-content p {
+  padding-top: 10px;
+  line-height: 2rem;
+}
+
+.main-content .skills {
+  padding-top: 140px;
+}
+
+.main-content .skills .skills-content {
+  padding-top: 60px;
+}
+
+.main-content .skills .skills-content h3 {
+  padding-bottom: 10px;
+}
+
+.main-content .skills .skills-content img {
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+.main-content .skills .skills-content .skill-percentage {
+  padding-top: 10px;
+}
+
+.main-content .skills .skills-content .skill-percentage .progress-bar {
+  background-color: #4B32CC;
+}
+
+.main-content .skills .skills-content .skill-percentage .typescript {
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+.main-content .skills .skills-content .skill-percentage .angular {
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+.main-content .skills .skills-content .skill-percentage .htmlcss {
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+.main-content .skills .skills-content .skill-percentage .ux {
+  font-weight: 600;
+}
+
+.main-content .work {
+  padding-top: 140px;
+}
+
+.main-content .work .work-content {
+  padding-top: 60px;
+}
+
+.main-content .work .work-content img {
+  border-radius: 10px;
+}
+
+.main-content .contact {
+  padding-top: 140px;
+}
+
+.main-content .contact .contact-content {
+  padding-top: 60px;
+}
+
+.main-content .contact .contact-content form .form-control {
+  border: 2px solid;
+  color: #c4c4c4;
+}
+
+.main-content .contact .contact-content form .btn-submit {
+  border: none;
+  padding: 8px 28px;
+  border-radius: 4px;
+  background-color: #4B32CC;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  float: right;
+}
 /*# sourceMappingURL=main.css.map */

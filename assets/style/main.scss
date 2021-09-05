@@ -94,5 +94,84 @@ h1, h2, h3, h4, h5, h6 {
 
   .about {
     padding-top: 180px;
+    .about-content {
+      padding-top: 60px;
+      img {
+        width: 340px;
+      }
+      p {
+        padding-top: 10px;
+        line-height: 2rem;
+      }
+    }
+  }
+
+  .skills {
+    padding-top: 140px;
+    .skills-content {
+      padding-top: 60px;
+      h3 {
+        padding-bottom: 10px;
+      }
+      img {
+        border-radius: 10px;
+        margin-left: 50px;
+      }
+      .skill-percentage {
+        padding-top: 10px;
+        .progress-bar {
+          background-color: $purple;
+        }
+        .typescript {
+          padding-bottom: 20px;
+          font-weight: $rale-semi-bold;
+        }
+        .angular {
+          padding-bottom: 20px;
+          font-weight: $rale-semi-bold;
+        }
+        .htmlcss {
+          padding-bottom: 20px;
+          font-weight: $rale-semi-bold;
+        }
+        .ux {
+          font-weight: $rale-semi-bold;
+        }
+      }
+    }
+  }
+
+  .work {
+    padding-top: 140px;
+    .work-content {
+      padding-top: 60px;
+      img {
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .contact {
+    padding-top: 140px;
+    .contact-content {
+      padding-top: 60px;
+      form {
+        .form-control {
+          border: 2px solid;
+          color: $grey;
+        }
+        .btn-submit {
+          border: none;
+          padding: 8px 28px;
+          border-radius: 4px;
+          background-color: $purple;
+          color: $white;
+          font-family: $montserrat;
+          font-weight: $monts-semi-bold;
+          letter-spacing: 0.1rem;
+          float: right;
+        }
+      }
+    }
   }
 }
