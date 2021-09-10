@@ -194,25 +194,67 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media only screen and (max-width: 700px) {
-  .header .navbar {
+  .header {
+    .navbar {
+      width: 100%;
+    }
+  }
+
+  .main-content {
     width: 100%;
-  }
-
-  .main-content .hero .container .row {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-  .main-content .hero .container .row .col-lg-6 .hero-image img {
-    width: 90%;
-    display: block;
-    margin-left: -30px;
-    margin-top: -60px;
-  }
-
-  .main-content .hero .container .row .hero-data h1 {
-    font-size: 22px;
-    line-height: 2rem;
-    margin-top: -20px;
+    margin-left: -5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    .hero {
+      .container {
+        .row {
+          display: flex;
+          flex-direction: column-reverse;
+        }
+      }
+      .container {
+        .row {
+          .col-lg-6 {
+            .hero-image {
+              img {
+                width: 100%;
+                display: block;
+                margin-left: -30px;
+                margin-top: -60px;
+              }
+            }
+            .hero-data h1 {
+              font-size: 22px;
+              line-height: 2rem;
+              margin-top: -20px;
+            }
+          }
+        }
+      }
+    }
+    .about {
+      margin-top: -100px;
+      .about-content {
+        margin-top: -40px;
+        h3 {
+          padding-top: 20px;
+        }
+      }
+    }
+    .skills {
+      margin-top: -90px;
+      .skills-content {
+        .row {
+          flex-direction: column-reverse;
+          margin-top: -50px;
+          img {
+            width: 103%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
   }
 }
