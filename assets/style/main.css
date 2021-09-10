@@ -224,6 +224,9 @@ h1, h2, h3, h4, h5, h6 {
   .main-content .about .about-content {
     margin-top: -40px;
   }
+  .main-content .about .about-content img {
+    width: 100%;
+  }
   .main-content .about .about-content h3 {
     padding-top: 20px;
   }
